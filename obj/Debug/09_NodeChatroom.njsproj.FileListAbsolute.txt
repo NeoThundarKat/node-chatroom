@@ -1,0 +1,2 @@
+D:\Downloads\NodeMVA-master\NodeMVA-master\09_NodeChatroom\obj\Debug\09_NodeChatroom.njsprojResolveAssemblyReference.cache
+D:\Downloads\NodeMVA-master\NodeMVA-master\09_NodeChatroom\bin\Microsoft.NodejsTools.WebRole.dll

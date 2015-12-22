@@ -1,0 +1,21 @@
+﻿extends layout
+
+block content
+  .wrap
+    .container-fluid
+        h1 Welcome to the Duck Secret Chat Room
+        #messages
+
+        .push
+  .footer
+    .container-fluid
+      .row(style="padding-top:6px")
+        .col-xs-3.col-sm-3
+          input(type="text" id="user-box" class="form-control input-lg" value="Anon" rows="3")
+        .col-xs-6.col-sm-6
+          input(type="text" id="message-box" class="form-control input-lg" placeholder="Write a message here..." rows="3")
+        .col-xs-3.col-sm-3
+          button#send-message-btn.btn.btn-primary.btn-lg.btn-block Send Message
+
+block body_end
+  script(type='text/javascript' src='/js/index.js')
